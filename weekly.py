@@ -6,8 +6,8 @@ import pandas as pd
 from openpyxl import load_workbook
 
 # Настройки папок
-pdf_folder = "/content/pdfs"
-output_folder = "/content/output"
+pdf_folder = "\\uc.local\MSK\Files\Weekly Publications\2025\Week 29"
+output_folder = "./output"
 os.makedirs(output_folder, exist_ok=True)
 
 
