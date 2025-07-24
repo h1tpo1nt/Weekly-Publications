@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 # Пути к папкам
-output_folder = "output"  # локальная папка в Jupyter
+output_folder = "./output"  # локальная папка в Jupyter
 base_network_path = r"\\uc.local\MSK\Files\Аналитика закрытая часть\REPORTS\1 - Raw Data\Weekly Publications"
 
 # Словарь с правилами распределения файлов
