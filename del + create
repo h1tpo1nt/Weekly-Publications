@@ -1,0 +1,11 @@
+import shutil
+import os
+
+folder_path1 = './pdfs'
+folder_path2 = './output'
+shutil.rmtree(folder_path1, ignore_errors=True)
+shutil.rmtree(folder_path2, ignore_errors=True)
+os.makedirs(folder_path1, exist_ok=True)
+os.makedirs(folder_path2, exist_ok=True)
+print(f"Папка '{folder_path1}' была очищена")
+print(f"Папка '{folder_path2}' была очищена")
